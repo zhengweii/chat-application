@@ -1,0 +1,151 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    font-family: Helvetica, sans-serif;
+}
+
+input {
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+}
+
+button {
+    cursor: pointer;
+    padding: 12px;
+    background: #a4d46c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: background .3s ease;
+}
+
+button:hover {
+    background: #74d108;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+label {
+    border: 1px solid #eeeeee;
+    border: none;
+}
+
+/* index.html styles */
+#centered-form {
+    background: #333744;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-form-box {
+    box-shadow: 0px 0px 18px 2px #1d1f26;
+    background: #f7f7fa;
+    padding: 25px;
+    width: 18%;
+}
+
+#centered-form button {
+    width: 100%;
+}
+
+#centered-form input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* chat.html styles */
+#chat {
+    display: flex;
+}
+
+#chat-sidebar {
+    height: 100vh;
+    color: white;
+    background: #333744;
+    width: 20%;
+    overflow-y: scroll;
+}
+
+#chat-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+#chat-messages {
+    flex-grow: 1;
+    padding: 25px 25px 0px 25px;
+    overflow-y: scroll;
+}
+
+#message {
+    margin-bottom: 15px;
+}
+
+#message-name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#message-meta {
+    color: #777777;
+    font-size: 14px;
+}
+
+#compose {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+#message-form {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+#message-form-input {
+    border: 1px solid #eeeeee;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#message-form-button {
+    font-size: 14px;
+}
+
+#room-title {
+    font-weight: 400;
+    font-size: 25px;
+    background: #2c2f3a;
+    padding: 25px;
+}
+
+#list-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding: 12px 25px 0px 25px;
+}
+
+#users {
+    list-style-type: none;
+    font-weight: 300;
+    padding: 12px 25px 0px 25px;
+}
